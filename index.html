@@ -80,6 +80,25 @@
     <footer>
         <p>&copy; 2026 My Awesome Website</p>
     </footer>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DHs00000S6flO',
+				'Service_Agent_Embeded_service_deployment',
+				'https://trailsignup-09ca171f290f17.my.site.com/ESWServiceAgentEmbeded1774472015471',
+				{
+					scrt2URL: 'https://trailsignup-09ca171f290f17.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://trailsignup-09ca171f290f17.my.site.com/ESWServiceAgentEmbeded1774472015471/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 </body>
 </html>
