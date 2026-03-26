@@ -81,6 +81,14 @@
         <p>&copy; 2026 My Awesome Website</p>
     </footer>
 
+
+<script type='text/javascript'>
+    window.addEventListener("onEmbeddedMessagingButtonCreated", () => {
+        embeddedservice_bootstrap.utilAPI.launchChat();
+    });
+</script>
+
+
 <script type='text/javascript'>
     function initEmbeddedMessaging() {
         try {
@@ -104,13 +112,6 @@
 <script type='text/javascript'
     src='https://trailsignup-09ca171f290f17.my.site.com/ESWGithubAgentforce1774485048614/assets/js/bootstrap.min.js'
     onload='initEmbeddedMessaging()'>
-</script>
-
-
-<script type='text/javascript'>
-    window.addEventListener("onEmbeddedMessagingButtonCreated", () => {
-        embeddedservice_bootstrap.utilAPI.launchChat();
-    });
 </script>
 
 </body>
